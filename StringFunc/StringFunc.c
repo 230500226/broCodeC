@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdbool.h>
 
 int main(){
 
@@ -23,8 +24,28 @@ int main(){
    //int result = strcmpi(string1, string1);     does the same but igonre case  // string compare all (ignore case)
    //int result = strnicmp(string1, string1, 1); does the same but igonre case  // string compare n characters (ignore case)
 
-    printf("%s", string1);
-    printf("%s", string2);
+   //char *cpRPos strchr(string1, 'r');     *of r       //returns pointer to the first character found in string1.      
+        //if r is not found then *cpRPos is NULL
+        //printf("%s\n", cpRpos);           ro          //returns rest of the string from r onwards.   
+   //char *cpS2Pos strstr(string1, string2); NULL        //returns pointer to the first string found in string1
+        //if string2 is found then *cpRPos is *of first character in string1 
+   //char *cpRPos strrchr(string1, 'r');    *of r       //returns pointer to the last character found in string1.      
+        //if r is not found then *cpRPos is NULL
+        // mostly used in csv
+
+    // remove char from string
+        // bool removeChar(char *s, int pos);
+        // {
+        //     int length  = strlen(s);
+
+        //     if (pos >= length) return false;
+
+        //     for(int i = pos; i < length; i++)
+        //         s[i] = s[i + 1];
+        // }
+
+    printf("%s\n", string1);
+    printf("%s\n", string2);
 
 
 return 0;}
