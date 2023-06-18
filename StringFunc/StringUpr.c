@@ -7,7 +7,7 @@ int main() {
 
     printf("Please enter a string:\n");
         scanf("%s", str);
-
+        
         for (int i=0; i<strlen(str) ; i++)
            str[i] = toupper(str[i]);
 
