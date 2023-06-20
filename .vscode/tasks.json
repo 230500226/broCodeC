@@ -4,23 +4,23 @@
 		{
 			"type": "cppbuild",
 			"label": "C/C++: gcc.exe build active file",
-			"command": "C:/MinGW/bin/gcc.exe",
+			"command": "C:/msys64/mingw64/bin/gcc.exe",
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",
 				"${file}",
 				"-o",
 				"${fileDirname}\\${fileBasenameNoExtension}.exe",
-				""
+				"-lpdcurses"
 			],
 			"options": {
-				"cwd": "C:/MinGW/bin"
+				"cwd": "C:/msys64/mingw64/bin"
 			},
 			"problemMatcher": [
 				"$gcc"
 			],
 			"group": "build",
-			"detail": "compiler: C:/MinGW/bin/gcc.exe"
+			"detail": "compiler: C:/msys64/mingw64/bin/gcc.exe"
 		}
 	]
 }

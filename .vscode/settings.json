@@ -55,5 +55,8 @@
     "/w14928"
   ],
   "C_Cpp_Runner.useUndefinedSanitizer": false,
-  "C_Cpp_Runner.useLeakSanitizer": false
+  "C_Cpp_Runner.useLeakSanitizer": false,
+  "code-runner.executorMap": {
+    "c": "cd $dir ; if ($?) { gcc $fileNameWithoutExt.c -o $fileNameWithoutExt -lpdcurses -DNCURSES_STATIC} ; if ($?) { .\\$fileNameWithoutExt }"
+}
 }

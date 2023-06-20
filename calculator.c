@@ -26,7 +26,7 @@ int main(){
     printf("\n Enter the operation type(+ - * /): ");
     scanf("%c",&op);
 
-    if(op != '+' || op != '-' || op != '*' || op != '/'){
+    if(op != '+' && op != '-' && op != '*' && op != '/'){
         printf("\n Invalid operation \"%c\"", op);
         return 1;
     }
@@ -55,5 +55,5 @@ int main(){
                 break;
     }
 
-    printf("\n%.2lf + %lf.2 = %.2lf", d1,d2,result);
+    printf("\n%.2lf %c %.2lf = %.2lf", d1,op,d2,result);
 return 0;}
