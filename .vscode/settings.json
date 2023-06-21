@@ -1,6 +1,6 @@
 {
-  "files.exclude":{
-    "**/*.exe":true
+  "files.exclude": {
+    "**/*.exe": true
   },
   "C_Cpp_Runner.cCompilerPath": "C:/msys64/mingw64/bin/gcc.exe",
   "C_Cpp_Runner.cppCompilerPath": "g++",
@@ -58,5 +58,5 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "code-runner.executorMap": {
     "c": "cd $dir ; if ($?) { gcc $fileNameWithoutExt.c -o $fileNameWithoutExt -lpdcurses -DNCURSES_STATIC} ; if ($?) { .\\$fileNameWithoutExt }"
-}
+  }
 }

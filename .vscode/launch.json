@@ -12,9 +12,6 @@
       "environment": [],
       "console": "externalTerminal"
     },
-
-
-
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -22,8 +19,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/snowy/Documents/GitHub/broCode",
-      "program": "c:/Users/snowy/Documents/GitHub/broCode/build/Debug/outDebug",
+      "cwd": "c:/Users/snowy/Documents/GitHub/broCode/NesoStructs/NesoUnions",
+      "program": "c:/Users/snowy/Documents/GitHub/broCode/NesoStructs/NesoUnions/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
