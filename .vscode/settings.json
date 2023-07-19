@@ -59,4 +59,6 @@
   "code-runner.executorMap": {
     "c": "cd $dir ; if ($?) { gcc $fileNameWithoutExt.c -o $fileNameWithoutExt -lpdcurses -DNCURSES_STATIC} ; if ($?) { .\\$fileNameWithoutExt }"
   }
+  // use this when compiling user headers
+  // "c": "cd $dir ; if ($?) { gcc -o $fileNameWithoutExt -lpdcurses -DNCURSES_STATIC} ; if ($?) { .\\$fileNameWithoutExt }"
 }

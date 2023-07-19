@@ -23,6 +23,6 @@ int main() {
 
         printf("\nOr just %s is ", str);
         printf("%s without loop using strrev\n",strrev(str));
-            //only works on some platforms like windows I think
+            //only works on some platforms like windows
     return 0;
 }
